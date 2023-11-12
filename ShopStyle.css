@@ -1,0 +1,27 @@
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    margin-top: 20px;
+
+}
+
+.image-row img {
+    width: 20%;
+    border: 5px solid black;
+
+}
+
+.text-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    margin-right: 250px;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000; /* Set the desired text color (e.g., black) */
+}

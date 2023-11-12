@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="AllCoffeeStyle.css">
+    <link rel="stylesheet" href="HomeStyle.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png" href="coff.webp">
+
+</head>
+<body style="background-image: url('brown.png'); background-repeat: repeat; background-size: cover;">
+
+    <div class="bar">
+        <a href="index.html">Home</a>
+        <a href="Shop.html">Shop</a>
+        <a href="FAQ.html">FAQ</a>
+        <a href="AboutCoffee.html">About coffee</a>
+        <a href="Contact.html">Contact</a>
+        <img src="cart0.PNG" alt="Cart" class="cart-icon">
+      </div>
+  
+    <div class="YouTubeVideo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M4bqjmdCwRY?si=yeTTro5fReygVieS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
+
+    <div class="product-container">
+        <div class="product-image">
+            <img src="mochaex.jpeg" alt="explaning mocha">
+        </div>
+
+        <div class="product-details">
+            <h2 class="item">Mocha</h2>
+            <p class="desc">Indulge in the best of both worlds with our mocha, a delectable fusion of rich, full-bodied espresso and velvety, luscious chocolate. Our mocha is a delightful symphony of flavors that combines the essence of coffee with the indulgence of cocoa, resulting in a beverage that's both comforting and invigorating.</p>
+            <p class="item">Price: $7.49</p>
+            
+            <label>Choose Coffee Type:</label>
+            <select>
+                <option>Whole Bean</option>
+                <option>Ground Coffee</option>
+            </select>
+            
+            <label>Choose Roast Level (1-10):</label>
+            <select>
+                <option value="1">Light</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10 (Dark)</option>
+            </select>
+            
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>

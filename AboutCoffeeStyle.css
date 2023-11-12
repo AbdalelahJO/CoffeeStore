@@ -1,0 +1,82 @@
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+/*this is not for about coffee, its for contact*/
+form label {
+  display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="text"],
+
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid beige;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+footer{
+  background-color: beige;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.fab.fa-facebook, .fab.fa-twitter {
+  color: black;
+}
+
+.fab.fa-facebook:hover{
+  background-color: beige;
+  color: #74554b;
+}
+
+.fab.fab.fa-twitter:hover{
+  background-color: beige;
+  color: #74554b;
+}
+
+.form-group input[type="submit"] {
+  background-color: #74554b;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: beige;
+  color: #74554b;
+}

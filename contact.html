@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="AboutCoffeeStyle.css">
+    <link rel="stylesheet" href="HomeStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/png" href="coff.webp">
+
+
+
+  </head>
+  
+  <body style="background-image: url('coffeebeans.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+ 
+    <div class="bar">
+      <a href="index.html">Home</a>
+      <a href="Shop.html">Shop</a>
+      <a href="FAQ.html">FAQ</a>
+      <a href="AboutCoffee.html">About coffee</a>
+      <a href="Contact.html">Contact</a>
+      <img src="cart0.PNG" alt="Cart" class="cart-icon">
+    </div>
+
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>If you have any questions or need assistance, feel free to get in touch with us using the information below:</p>
+      
+      <div class="contact-info"> <!--main info-->
+        <h2>Contact Information</h2>
+        <p>Email: small.cappuccino@gmail.com</p>
+        <p>Phone: +966 659 764 2512</p>
+        <p>Address: Uthman ibn Affan Road, An Nada, Riyadh 13317, Saudi Arabia</p>
+        <p>Business Hours: Mon-Fri, 9:00 AM - 5:00 PM</p>
+      </div>
+      <div class="contact-form">
+        <h2>Contact Form</h2> <!--this is the form and everything is required-->
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+    
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+      <div class="footer-content"> <!--the footer that has the copyright and Facebook and twitter-->
+        <p>&copy; 2023 Small cappuccino. All rights reserved.</p>
+        <p>work with us: jobs.small.cappuccino@gmail.com</p>
+        <p>Follow us on 
+          <a href="https://www.facebook.com/?locale=ar_AR">
+            <i class="fab fa-facebook"></i> <!-- FontAwesome Facebook icon -->
+          </a> 
+          and 
+          <a href="https://twitter.com/home?lang=ar">
+            <i class="fab fa-twitter"></i> <!-- FontAwesome Twitter icon -->
+          </a>
+        </p>
+      </div>
+    </footer>
+    
+    
+  </body>
+</html>

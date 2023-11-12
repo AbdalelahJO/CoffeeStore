@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.YouTubeVideo {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.product-image {
+    width: 26%;
+    padding: 10px;
+}
+
+.product-details {
+    background-color: beige;
+    border-radius: 10px;
+    width: 60%;
+    padding: 20px;
+}
+
+.item {
+    font-size: 30px;
+}
+
+.desc {
+    font-size: 16px;
+}
+
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/*the best button i ever made*/
+
+button {
+    background-color: #74554b;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  button:hover {
+    background-color: #5a4238;
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
